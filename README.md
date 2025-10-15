@@ -72,7 +72,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 Access the application at `http://localhost:8501`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 info-discovery-assistant/
@@ -94,7 +94,7 @@ info-discovery-assistant/
 └── 
 ```
 
-## 🎮 How to Use
+## How to Use
 
 ### Step 1: Index Documents
 
@@ -131,7 +131,7 @@ info-discovery-assistant/
 | **Clear Index** | Delete all data | Completely clears database |
 
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Component Overview
 
@@ -177,7 +177,7 @@ info-discovery-assistant/
 4. **Response** → Store in FAQ → Update Conversation History → Display
 
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [FAISS Documentation](https://faiss.ai/)
 - [Sentence Transformers](https://www.sbert.net/)

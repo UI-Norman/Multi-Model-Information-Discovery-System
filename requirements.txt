@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+groq
+sentence-transformers
+PyPDF2
+python-dotenv
+torch

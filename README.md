@@ -41,13 +41,13 @@ The Information Discovery Assistant is designed to help users:
 - **Response caching**: Stores reranked results to avoid redundant processing
 - **Metadata tracking**: Records source, upload date, chunk count, and document ID
 
-## 📋 Prerequisites
+## Prerequisites
 
 ### API Keys Required
 - **Google Gemini API Key**: For LLM and OCR capabilities
 - **Groq API Key**: For Llama model fallback
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone or Download
 ```bash

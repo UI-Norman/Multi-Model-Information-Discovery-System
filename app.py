@@ -513,7 +513,7 @@ Detailed Answer: Provide a comprehensive response that includes all relevant det
 
 # Streamlit UI for the application
 def main():
-    st.set_page_config(page_title="Free-Tier Information Discovery Assistant", layout="wide")
+    st.set_page_config(page_title="Information Discovery Assistant", layout="wide")
     
     # Sidebar for indexing documents
     with st.sidebar:
@@ -539,11 +539,11 @@ def main():
     
     # Main content with UI styling
     st.markdown(
-        "<h1 style='text-align: center; color: #87CEEB;'>Free-Tier Information Discovery Assistant</h1>",
+        "<h1 style='text-align: center; color: #87CEEB;'>Information Discovery Assistant</h1>",
         unsafe_allow_html=True
     )
     st.markdown(
-        "<p style='text-align: center; color: #B0C4DE;'>Uses local embeddings (free) + FAISS vector database + Reranking + Gemini 1.5 Flash (free tier) for LLM/OCR.</p>",
+        "<p style='text-align: center; color: #B0C4DE;'>Uses local embeddings+ FAISS vector database + Reranking + Gemini 2.5 Flash for LLM/OCR.</p>",
         unsafe_allow_html=True
     )
     st.info("Embeddings run locally. FAISS for fast vector search. Cross-encoder reranking for improved accuracy. Supports centralized indexing from files and URLs.")

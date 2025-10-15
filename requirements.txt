@@ -2,6 +2,15 @@ streamlit
 google-generativeai
 groq
 sentence-transformers
-PyPDF2
+pdfplumber
+python-docx
 python-dotenv
 torch
+torchvision
+faiss-cpu
+numpy
+pillow
+pytesseract
+requests
+beautifulsoup4
+lxml
